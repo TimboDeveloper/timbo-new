@@ -1,0 +1,26 @@
+{
+    "default": {
+
+        "packageManager": "npm",
+        "type": "frontend",
+
+        "defaultDependencies": {
+            "dependencies": {
+                "eslint": {
+                    "autoselect": true
+                }
+            }
+        },
+        "frontend": {
+            "defaultFrameWork": "react", 
+            "dependencies": {
+                "styled-components": {
+                    "autoselect": true
+                },
+                "electron": {
+                    "autoselect": true
+                }
+            }
+        }
+    }
+}
