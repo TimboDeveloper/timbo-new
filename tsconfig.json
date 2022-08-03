@@ -2,6 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": false,
     "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": false,
     "lib": [
       "es2015",
       "scripthost",
@@ -21,8 +22,9 @@
     "strict": false,
     "target": "es5",
     "declaration": true,
-    "declarationDir": "build/types"
+    "declarationDir": "build/types",
+    "resolveJsonModule": true,
   },
   "include": ["src/**/*", "src/cli.ts", "src/cli.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "src/timbo.config.ts", "src/types.ts"]
 }

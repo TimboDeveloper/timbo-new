@@ -29,5 +29,6 @@ module.exports = {
                 endOfLine: 'auto',
             },
         ],
+        'prefer-const': 'off',
     },
 }

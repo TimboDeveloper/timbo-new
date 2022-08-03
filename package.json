@@ -30,7 +30,9 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "gluegun": "^5.1.2"
+    "gluegun": "^5.1.2",
+    "kleur": "^4.1.5",
+    "timbo-prompts": "^2.4.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
